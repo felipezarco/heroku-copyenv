@@ -9,7 +9,9 @@ Script to copy environment variables from an existing heroku app to another one
 - Run:
 
 ```shell
-./copyenv.sh appwithvariables appiwanttohavesamevariables
+./copyenv.sh heroku-app1 heroku-app2
 ```
 
-Done!
+This will copy heroku-app1 env variables to heroku-app2
+
+Enjoy!
