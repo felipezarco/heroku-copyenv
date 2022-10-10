@@ -10,7 +10,7 @@ Script to copy environment variables from an existing heroku app to another one
 - Give execution permission: 
 
 ```
-chmod copyenv.sh
+chmod +x copyenv.sh
 ```
 
 - Use `heroku login` to authenticate with [Heroku CLI](https://devcenter.heroku.com/articles/authentication) 
